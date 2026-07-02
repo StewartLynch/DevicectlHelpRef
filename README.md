@@ -4,6 +4,8 @@ Generated on 2026-07-01 15:31:50 PDT from `/Applications/Xcode.app/Contents/Deve
 
 This document contains the top-level `devicectl` help and the help output for every subcommand discovered from each `SUBCOMMANDS:` section.
 
+<a id="index"></a>
+
 ## Command Index
 
 - [`devicectl`](#devicectl)
@@ -156,6 +158,9 @@ SUBCOMMANDS:
   See 'devicectl help <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ### devicectl device
 
 ```text
@@ -211,6 +216,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ### devicectl diagnose
 
@@ -290,6 +298,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ### devicectl list
 
 ```text
@@ -333,6 +344,9 @@ SUBCOMMANDS:
 
   See 'devicectl help list <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ### devicectl manage
 
@@ -381,6 +395,9 @@ SUBCOMMANDS:
   See 'devicectl help manage <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device appResize
 
 ```text
@@ -426,6 +443,9 @@ SUBCOMMANDS:
   See 'devicectl help device appResize <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device capture
 
 ```text
@@ -466,6 +486,9 @@ SUBCOMMANDS:
   See 'devicectl help device capture <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device copy
 
 ```text
@@ -505,6 +528,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device copy <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device info
 
@@ -560,6 +586,9 @@ SUBCOMMANDS:
   See 'devicectl help device info <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device install
 
 ```text
@@ -599,6 +628,9 @@ SUBCOMMANDS:
   See 'devicectl help device install <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device notification
 
 ```text
@@ -636,6 +668,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device notification <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device orientation
 
@@ -679,6 +714,9 @@ SUBCOMMANDS:
   See 'devicectl help device orientation <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device pairings
 
 ```text
@@ -720,6 +758,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device pairings <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device pasteboard
 
@@ -764,6 +805,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device pasteboard <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device process
 
@@ -811,6 +855,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device process <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device profile
 
@@ -865,6 +912,9 @@ SUBCOMMANDS:
   See 'devicectl help device profile <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device reboot
 
 ```text
@@ -913,6 +963,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device rename
 
 ```text
@@ -954,6 +1007,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device settings
 
@@ -998,6 +1054,9 @@ SUBCOMMANDS:
   See 'devicectl help device settings <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device simulate
 
 ```text
@@ -1039,6 +1098,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device simulate <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl device sysdiagnose
 
@@ -1094,6 +1156,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl device uninstall
 
 ```text
@@ -1133,6 +1198,9 @@ SUBCOMMANDS:
   See 'devicectl help device uninstall <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl list audioDevices
 
 ```text
@@ -1168,6 +1236,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl list devices
 
@@ -1233,6 +1304,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl list plugins
 
 ```text
@@ -1264,6 +1338,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl list preferredDDI
 
@@ -1305,6 +1382,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl manage ddis
 
@@ -1350,6 +1430,9 @@ SUBCOMMANDS:
   See 'devicectl help manage ddis <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl manage loggingProfile
 
 ```text
@@ -1392,6 +1475,9 @@ SUBCOMMANDS:
 
   See 'devicectl help manage loggingProfile <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 #### devicectl manage pair
 
@@ -1439,6 +1525,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 #### devicectl manage unpair
 
 ```text
@@ -1485,6 +1574,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device appResize observe
 
 ```text
@@ -1528,6 +1620,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device appResize set
 
@@ -1575,6 +1670,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device appResize start
 
@@ -1626,6 +1724,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device capture screen-record
 
@@ -1688,6 +1789,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device capture screenshot
 
 ```text
@@ -1739,6 +1843,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device copy to
 
@@ -1809,6 +1916,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device copy from
 
 ```text
@@ -1875,6 +1985,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device info appIcon
 
@@ -1956,6 +2069,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info appResize
 
 ```text
@@ -2000,6 +2116,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info appearance
 
 ```text
@@ -2039,6 +2158,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device info apps
 
@@ -2164,6 +2286,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info audio
 
 ```text
@@ -2204,6 +2329,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info authListing
 
 ```text
@@ -2243,6 +2371,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device info ddiServices
 
@@ -2294,6 +2425,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info details
 
 ```text
@@ -2343,6 +2477,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info displays
 
 ```text
@@ -2381,6 +2518,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device info files
 
@@ -2478,6 +2618,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info lockState
 
 ```text
@@ -2518,6 +2661,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device info mountpoint
 
 ```text
@@ -2557,6 +2703,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device info processes
 
@@ -2628,6 +2777,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device install app
 
@@ -2704,6 +2856,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device notification post
 
 ```text
@@ -2746,6 +2901,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device notification observe
 
@@ -2798,6 +2956,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device orientation get
 
 ```text
@@ -2836,6 +2997,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device orientation rotate
 
@@ -2880,6 +3044,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device orientation set
 
@@ -2926,6 +3093,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device pairings list
 
@@ -2998,6 +3168,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device pairings pair
 
 ```text
@@ -3039,6 +3212,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device pairings set-active
 
@@ -3082,6 +3258,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device pairings unpair
 
 ```text
@@ -3123,6 +3302,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device pasteboard copy
 
@@ -3187,6 +3369,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device pasteboard paste
 
 ```text
@@ -3249,6 +3434,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device pasteboard info
 
 ```text
@@ -3292,6 +3480,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device pasteboard monitor
 
@@ -3343,6 +3534,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device pasteboard transfer
 
 ```text
@@ -3380,6 +3574,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device pasteboard transfer <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device pasteboard sync-with-host
 
@@ -3455,6 +3652,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device process awaitTermination
 
 ```text
@@ -3497,6 +3697,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device process launch
 
@@ -3603,6 +3806,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device process openURL
 
 ```text
@@ -3663,6 +3869,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device process resume
 
 ```text
@@ -3704,6 +3913,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device process sendMemoryWarning
 
@@ -3747,6 +3959,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device process signal
 
@@ -3792,6 +4007,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device process suspend
 
 ```text
@@ -3833,6 +4051,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device process terminate
 
@@ -3878,6 +4099,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device profile install
 
@@ -3936,6 +4160,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device profile list
 
@@ -4016,6 +4243,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device profile remove
 
 ```text
@@ -4076,6 +4306,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device profile validate
 
 ```text
@@ -4130,6 +4363,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device settings appearance
 
@@ -4214,6 +4450,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device settings audio
 
 ```text
@@ -4266,6 +4505,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device settings biometrics
 
 ```text
@@ -4312,6 +4554,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device settings reset
 
 ```text
@@ -4351,6 +4596,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device simulate biometrics
 
@@ -4397,6 +4645,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device simulate location
 
 ```text
@@ -4440,6 +4691,9 @@ SUBCOMMANDS:
 
   See 'devicectl help device simulate location <subcommand>' for detailed help.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl device simulate statusBar
 
@@ -4485,6 +4739,9 @@ SUBCOMMANDS:
   See 'devicectl help device simulate statusBar <subcommand>' for detailed help.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl device uninstall app
 
 ```text
@@ -4527,6 +4784,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl manage ddis clean
 
 ```text
@@ -4561,6 +4821,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ##### devicectl manage ddis update
 
@@ -4626,6 +4889,9 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+[↑ Back to Command Index](#index)
+
+
 ##### devicectl manage loggingProfile register
 
 ```text
@@ -4664,6 +4930,9 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+[↑ Back to Command Index](#index)
+
 
 ###### devicectl device pasteboard transfer to
 
@@ -5253,4 +5522,3 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
-
