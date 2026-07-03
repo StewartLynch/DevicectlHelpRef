@@ -9,105 +9,105 @@ This document contains the top-level `devicectl` help and the help output for ev
 ## Command Index
 
 - [`devicectl`](#devicectl)
-- [`devicectl device`](#devicectl-device)
-- [`devicectl diagnose`](#devicectl-diagnose)
-- [`devicectl list`](#devicectl-list)
-- [`devicectl manage`](#devicectl-manage)
-- [`devicectl device appResize`](#devicectl-device-appresize)
-- [`devicectl device capture`](#devicectl-device-capture)
-- [`devicectl device copy`](#devicectl-device-copy)
-- [`devicectl device info`](#devicectl-device-info)
-- [`devicectl device install`](#devicectl-device-install)
-- [`devicectl device notification`](#devicectl-device-notification)
-- [`devicectl device orientation`](#devicectl-device-orientation)
-- [`devicectl device pairings`](#devicectl-device-pairings)
-- [`devicectl device pasteboard`](#devicectl-device-pasteboard)
-- [`devicectl device process`](#devicectl-device-process)
-- [`devicectl device profile`](#devicectl-device-profile)
-- [`devicectl device reboot`](#devicectl-device-reboot)
-- [`devicectl device rename`](#devicectl-device-rename)
-- [`devicectl device settings`](#devicectl-device-settings)
-- [`devicectl device simulate`](#devicectl-device-simulate)
-- [`devicectl device sysdiagnose`](#devicectl-device-sysdiagnose)
-- [`devicectl device uninstall`](#devicectl-device-uninstall)
-- [`devicectl list audioDevices`](#devicectl-list-audiodevices)
-- [`devicectl list devices`](#devicectl-list-devices)
-- [`devicectl list plugins`](#devicectl-list-plugins)
-- [`devicectl list preferredDDI`](#devicectl-list-preferredddi)
-- [`devicectl manage ddis`](#devicectl-manage-ddis)
-- [`devicectl manage loggingProfile`](#devicectl-manage-loggingprofile)
-- [`devicectl manage pair`](#devicectl-manage-pair)
-- [`devicectl manage unpair`](#devicectl-manage-unpair)
-- [`devicectl device appResize observe`](#devicectl-device-appresize-observe)
-- [`devicectl device appResize set`](#devicectl-device-appresize-set)
-- [`devicectl device appResize start`](#devicectl-device-appresize-start)
-- [`devicectl device capture screen-record`](#devicectl-device-capture-screen-record)
-- [`devicectl device capture screenshot`](#devicectl-device-capture-screenshot)
-- [`devicectl device copy to`](#devicectl-device-copy-to)
-- [`devicectl device copy from`](#devicectl-device-copy-from)
-- [`devicectl device info appIcon`](#devicectl-device-info-appicon)
-- [`devicectl device info appResize`](#devicectl-device-info-appresize)
-- [`devicectl device info appearance`](#devicectl-device-info-appearance)
-- [`devicectl device info apps`](#devicectl-device-info-apps)
-- [`devicectl device info audio`](#devicectl-device-info-audio)
-- [`devicectl device info authListing`](#devicectl-device-info-authlisting)
-- [`devicectl device info ddiServices`](#devicectl-device-info-ddiservices)
-- [`devicectl device info details`](#devicectl-device-info-details)
-- [`devicectl device info displays`](#devicectl-device-info-displays)
-- [`devicectl device info files`](#devicectl-device-info-files)
-- [`devicectl device info lockState`](#devicectl-device-info-lockstate)
-- [`devicectl device info mountpoint`](#devicectl-device-info-mountpoint)
-- [`devicectl device info processes`](#devicectl-device-info-processes)
-- [`devicectl device install app`](#devicectl-device-install-app)
-- [`devicectl device notification post`](#devicectl-device-notification-post)
-- [`devicectl device notification observe`](#devicectl-device-notification-observe)
-- [`devicectl device orientation get`](#devicectl-device-orientation-get)
-- [`devicectl device orientation rotate`](#devicectl-device-orientation-rotate)
-- [`devicectl device orientation set`](#devicectl-device-orientation-set)
-- [￼`devicectl device pairings list`￼](#devicectl-device-pairings-list)<!-- {"preview":"true"} -->
-- [`devicectl device pairings pair`](#devicectl-device-pairings-pair)
-- [`devicectl device pairings set-active`](#devicectl-device-pairings-set-active)
-- [`devicectl device pairings unpair`](#devicectl-device-pairings-unpair)
-- [`devicectl device pasteboard copy`](#devicectl-device-pasteboard-copy)
-- [`devicectl device pasteboard paste`](#devicectl-device-pasteboard-paste)
-- [`devicectl device pasteboard info`](#devicectl-device-pasteboard-info)
-- [`devicectl device pasteboard monitor`](#devicectl-device-pasteboard-monitor)
-- [`devicectl device pasteboard transfer`](#devicectl-device-pasteboard-transfer)
-- [`devicectl device pasteboard sync-with-host`](#devicectl-device-pasteboard-sync-with-host)
-- [`devicectl device process awaitTermination`](#devicectl-device-process-awaittermination)
-- [`devicectl device process launch`](#devicectl-device-process-launch)
-- [`devicectl device process openURL`](#devicectl-device-process-openurl)
-- [`devicectl device process resume`](#devicectl-device-process-resume)
-- [`devicectl device process sendMemoryWarning`](#devicectl-device-process-sendmemorywarning)
-- [`devicectl device process signal`](#devicectl-device-process-signal)
-- [`devicectl device process suspend`](#devicectl-device-process-suspend)
-- [`devicectl device process terminate`](#devicectl-device-process-terminate)
-- [`devicectl device profile install`](#devicectl-device-profile-install)
-- [`devicectl device profile list`](#devicectl-device-profile-list)
-- [`devicectl device profile remove`](#devicectl-device-profile-remove)
-- [`devicectl device profile validate`](#devicectl-device-profile-validate)
-- [`devicectl device settings appearance`](#devicectl-device-settings-appearance)
-- [`devicectl device settings audio`](#devicectl-device-settings-audio)
-- [`devicectl device settings biometrics`](#devicectl-device-settings-biometrics)
-- [`devicectl device settings reset`](#devicectl-device-settings-reset)
-- [`devicectl device simulate biometrics`](#devicectl-device-simulate-biometrics)
-- [`devicectl device simulate location`](#devicectl-device-simulate-location)
-- [`devicectl device simulate statusBar`](#devicectl-device-simulate-statusbar)
-- [`devicectl device uninstall app`](#devicectl-device-uninstall-app)
-- [`devicectl manage ddis clean`](#devicectl-manage-ddis-clean)
-- [`devicectl manage ddis update`](#devicectl-manage-ddis-update)
-- [`devicectl manage loggingProfile register`](#devicectl-manage-loggingprofile-register)
-- [`devicectl device pasteboard transfer to`](#devicectl-device-pasteboard-transfer-to)
-- [`devicectl device pasteboard transfer from`](#devicectl-device-pasteboard-transfer-from)
-- [`devicectl device simulate location clear`](#devicectl-device-simulate-location-clear)
-- [`devicectl device simulate location coordinate`](#devicectl-device-simulate-location-coordinate)
-- [`devicectl device simulate location list`](#devicectl-device-simulate-location-list)
-- [`devicectl device simulate location route`](#devicectl-device-simulate-location-route)
-- [`devicectl device simulate location scenario`](#devicectl-device-simulate-location-scenario)
-- [`devicectl device simulate statusBar clear`](#devicectl-device-simulate-statusbar-clear)
-- [`devicectl device simulate statusBar override`](#devicectl-device-simulate-statusbar-override)
-- [`devicectl device simulate statusBar preset`](#devicectl-device-simulate-statusbar-preset)
-- [`devicectl device simulate statusBar show`](#devicectl-device-simulate-statusbar-show)
+  - [`devicectl device`](#devicectl-device)
+    - [`devicectl device appResize`](#devicectl-device-appresize)
+      - [`devicectl device appResize observe`](#devicectl-device-appresize-observe)
+      - [`devicectl device appResize set`](#devicectl-device-appresize-set)
+      - [`devicectl device appResize start`](#devicectl-device-appresize-start)
+    - [`devicectl device capture`](#devicectl-device-capture)
+      - [`devicectl device capture screen-record`](#devicectl-device-capture-screen-record)
+      - [`devicectl device capture screenshot`](#devicectl-device-capture-screenshot)
+    - [`devicectl device copy`](#devicectl-device-copy)
+      - [`devicectl device copy to`](#devicectl-device-copy-to)
+      - [`devicectl device copy from`](#devicectl-device-copy-from)
+    - [`devicectl device info`](#devicectl-device-info)
+      - [`devicectl device info appIcon`](#devicectl-device-info-appicon)
+      - [`devicectl device info appResize`](#devicectl-device-info-appresize)
+      - [`devicectl device info appearance`](#devicectl-device-info-appearance)
+      - [`devicectl device info apps`](#devicectl-device-info-apps)
+      - [`devicectl device info audio`](#devicectl-device-info-audio)
+      - [`devicectl device info authListing`](#devicectl-device-info-authlisting)
+      - [`devicectl device info ddiServices`](#devicectl-device-info-ddiservices)
+      - [`devicectl device info details`](#devicectl-device-info-details)
+      - [`devicectl device info displays`](#devicectl-device-info-displays)
+      - [`devicectl device info files`](#devicectl-device-info-files)
+      - [`devicectl device info lockState`](#devicectl-device-info-lockstate)
+      - [`devicectl device info mountpoint`](#devicectl-device-info-mountpoint)
+      - [`devicectl device info processes`](#devicectl-device-info-processes)
+    - [`devicectl device install`](#devicectl-device-install)
+      - [`devicectl device install app`](#devicectl-device-install-app)
+    - [`devicectl device notification`](#devicectl-device-notification)
+      - [`devicectl device notification post`](#devicectl-device-notification-post)
+      - [`devicectl device notification observe`](#devicectl-device-notification-observe)
+    - [`devicectl device orientation`](#devicectl-device-orientation)
+      - [`devicectl device orientation get`](#devicectl-device-orientation-get)
+      - [`devicectl device orientation rotate`](#devicectl-device-orientation-rotate)
+      - [`devicectl device orientation set`](#devicectl-device-orientation-set)
+    - [`devicectl device pairings`](#devicectl-device-pairings)
+      - [`devicectl device pairings list`](#devicectl-device-pairings-list)
+      - [`devicectl device pairings pair`](#devicectl-device-pairings-pair)
+      - [`devicectl device pairings set-active`](#devicectl-device-pairings-set-active)
+      - [`devicectl device pairings unpair`](#devicectl-device-pairings-unpair)
+    - [`devicectl device pasteboard`](#devicectl-device-pasteboard)
+      - [`devicectl device pasteboard copy`](#devicectl-device-pasteboard-copy)
+      - [`devicectl device pasteboard paste`](#devicectl-device-pasteboard-paste)
+      - [`devicectl device pasteboard info`](#devicectl-device-pasteboard-info)
+      - [`devicectl device pasteboard monitor`](#devicectl-device-pasteboard-monitor)
+      - [`devicectl device pasteboard transfer`](#devicectl-device-pasteboard-transfer)
+        - [`devicectl device pasteboard transfer to`](#devicectl-device-pasteboard-transfer-to)
+        - [`devicectl device pasteboard transfer from`](#devicectl-device-pasteboard-transfer-from)
+      - [`devicectl device pasteboard sync-with-host`](#devicectl-device-pasteboard-sync-with-host)
+    - [`devicectl device process`](#devicectl-device-process)
+      - [`devicectl device process awaitTermination`](#devicectl-device-process-awaittermination)
+      - [`devicectl device process launch`](#devicectl-device-process-launch)
+      - [`devicectl device process openURL`](#devicectl-device-process-openurl)
+      - [`devicectl device process resume`](#devicectl-device-process-resume)
+      - [`devicectl device process sendMemoryWarning`](#devicectl-device-process-sendmemorywarning)
+      - [`devicectl device process signal`](#devicectl-device-process-signal)
+      - [`devicectl device process suspend`](#devicectl-device-process-suspend)
+      - [`devicectl device process terminate`](#devicectl-device-process-terminate)
+    - [`devicectl device profile`](#devicectl-device-profile)
+      - [`devicectl device profile install`](#devicectl-device-profile-install)
+      - [`devicectl device profile list`](#devicectl-device-profile-list)
+      - [`devicectl device profile remove`](#devicectl-device-profile-remove)
+      - [`devicectl device profile validate`](#devicectl-device-profile-validate)
+    - [`devicectl device reboot`](#devicectl-device-reboot)
+    - [`devicectl device rename`](#devicectl-device-rename)
+    - [`devicectl device settings`](#devicectl-device-settings)
+      - [`devicectl device settings appearance`](#devicectl-device-settings-appearance)
+      - [`devicectl device settings audio`](#devicectl-device-settings-audio)
+      - [`devicectl device settings biometrics`](#devicectl-device-settings-biometrics)
+      - [`devicectl device settings reset`](#devicectl-device-settings-reset)
+    - [`devicectl device simulate`](#devicectl-device-simulate)
+      - [`devicectl device simulate biometrics`](#devicectl-device-simulate-biometrics)
+      - [`devicectl device simulate location`](#devicectl-device-simulate-location)
+        - [`devicectl device simulate location clear`](#devicectl-device-simulate-location-clear)
+        - [`devicectl device simulate location coordinate`](#devicectl-device-simulate-location-coordinate)
+        - [`devicectl device simulate location list`](#devicectl-device-simulate-location-list)
+        - [`devicectl device simulate location route`](#devicectl-device-simulate-location-route)
+        - [`devicectl device simulate location scenario`](#devicectl-device-simulate-location-scenario)
+      - [`devicectl device simulate statusBar`](#devicectl-device-simulate-statusbar)
+        - [`devicectl device simulate statusBar clear`](#devicectl-device-simulate-statusbar-clear)
+        - [`devicectl device simulate statusBar override`](#devicectl-device-simulate-statusbar-override)
+        - [`devicectl device simulate statusBar preset`](#devicectl-device-simulate-statusbar-preset)
+        - [`devicectl device simulate statusBar show`](#devicectl-device-simulate-statusbar-show)
+    - [`devicectl device sysdiagnose`](#devicectl-device-sysdiagnose)
+    - [`devicectl device uninstall`](#devicectl-device-uninstall)
+      - [`devicectl device uninstall app`](#devicectl-device-uninstall-app)
+  - [`devicectl diagnose`](#devicectl-diagnose)
+  - [`devicectl list`](#devicectl-list)
+    - [`devicectl list audioDevices`](#devicectl-list-audiodevices)
+    - [`devicectl list devices`](#devicectl-list-devices)
+    - [`devicectl list plugins`](#devicectl-list-plugins)
+    - [`devicectl list preferredDDI`](#devicectl-list-preferredddi)
+  - [`devicectl manage`](#devicectl-manage)
+    - [`devicectl manage ddis`](#devicectl-manage-ddis)
+      - [`devicectl manage ddis clean`](#devicectl-manage-ddis-clean)
+      - [`devicectl manage ddis update`](#devicectl-manage-ddis-update)
+    - [`devicectl manage loggingProfile`](#devicectl-manage-loggingprofile)
+      - [`devicectl manage loggingProfile register`](#devicectl-manage-loggingprofile-register)
+    - [`devicectl manage pair`](#devicectl-manage-pair)
+    - [`devicectl manage unpair`](#devicectl-manage-unpair)
 
 ## devicectl
 
@@ -159,7 +159,6 @@ SUBCOMMANDS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ### devicectl device
 
@@ -219,185 +218,6 @@ SUBCOMMANDS:
 
 [↑ Back to Command Index](#index)
 
-
-### devicectl diagnose
-
-```text
-OVERVIEW: Gather diagnostic information for debugging or filing bug reports.
-
-This command gathers diagnostic information from the local system and connected
-devices that have a mounted Developer Disk Image (DDI).
-
-By default this command will wait for 3600 seconds before exiting. You can
-override this by providing a different --timeout value.
-
-'--json-output -' is not supported; pass '--json-output <path>' instead.
-
-If you are running this command to generate diagnostics for a Feedback
-Assistant report, you can provide better logging by installing CoreDevice's
-CoreDeviceHostLogging profile (located at
-/Library/Developer/PrivateFrameworks/CoreDevice.framework/Resources/CoreDeviceHostLogging.mobileconfig).
-To install the profile either double-click on
-CoreDeviceHostLogging.mobileconfig in Finder or go to System Settings->Privacy
-& Security->Profile and add the profile directly.
-
-USAGE: devicectl diagnose <options>
-
-DEVICE OPTIONS:
-  -d, --devices <uuid|ecid|udid|name>
-                          The identifiers, ECIDs, UDIDs, or names of the
-                          devices. If not specified, all known devices are
-                          used. For multiple devices, supply this option
-                          multiple times, once for each device.
-
-COMMAND OPTIONS:
-  -b, --finder/--no-finder
-                          Do not show the resulting archive in Finder upon
-                          completion. Default is to show the archive in Finder
-                          if the current user is controlling the Aqua console
-                          session. (default: --finder)
-  -k, --keep-temp-dir     Keep the temporary directory after archiving. Default
-                          is to delete the directory once the archive has been
-                          created.
-  -a, --archive-destination <path>
-                          The path for the final ZIP archive. By default the
-                          archive is placed at
-                          '/tmp/devicectl_diagnose_<timestamp>.zip'. This is
-                          ignored if --create-radar is passed in (since no
-                          archive is created).
-  --archive/--no-archive  Do not create an archive, leave the collected files
-                          uncompressed. (default: --archive)
-  --include-host-sysdiagnose/--no-include-host-sysdiagnose
-                          When running the command, include the host
-                          sysdiagnose collection, which may increase
-                          diagnostics collection time. (default:
-                          --include-host-sysdiagnose)
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-### devicectl list
-
-```text
-OVERVIEW: List things that devicectl knows about.
-
-This command lists different kinds of things that CoreDevice knows about.
-
-USAGE: devicectl list [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  audioDevices            List the host's audio input and output devices.
-  devices                 Lists devices that CoreDevice knows about
-  plugins                 List loaded plugin information for devicectl and
-                          CoreDeviceService. 
-  preferredDDI            List the DDI that CoreDevice will use for a given
-                          platform.
-
-  See 'devicectl help list <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-### devicectl manage
-
-```text
-OVERVIEW: Commands to change state between the system and devices, or between
-devices themselves.
-
-Allows users to prepare devices for use, disconnect existing device
-connections, and set up relationships between devices themselves or between
-accessories and devices.
-
-USAGE: devicectl manage [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  ddis                    Commands used to manage the set of developer disk
-                          images present on the host.
-  loggingProfile          Commands used to manage the Core Device logging
-                          profile.
-  pair                    Pair with a given device.
-  unpair                  Unpair a manually paired device.
-
-  See 'devicectl help manage <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
 #### devicectl device appResize
 
 ```text
@@ -445,1138 +265,6 @@ SUBCOMMANDS:
 
 [↑ Back to Command Index](#index)
 
-
-#### devicectl device capture
-
-```text
-OVERVIEW: Capture the device's screen.
-
-Commands for capturing the device's screen content.
-
-USAGE: devicectl device capture [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  screen-record           Record the device's screen.
-  screenshot              Capture a screenshot from the device.
-
-  See 'devicectl help device capture <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device copy
-
-```text
-OVERVIEW: Copy files.
-
-This command allows you to copy files to and from a device.
-
-USAGE: devicectl device copy [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  to                      Copy a file or directory to the device.
-  from                    Receive a file from the remote device.
-
-  See 'devicectl help device copy <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device info
-
-```text
-OVERVIEW: Commands that provide information about a specific device
-
-Provides access to device information like processes, installed roots,
-installed files, and other device state.
-
-USAGE: devicectl device info [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  appIcon                 Request app icon generation from this device.
-  appResize               Get the current resizable app session state.
-  appearance              Get Device UI Appearance Information
-  apps                    List apps installed on the device.
-  audio                   Get device audio settings
-  authListing             Get the device's AuthListing identifiers.
-  ddiServices             Get information on the developer disk image services
-                          on the device.
-  details                 Get information about the current device.
-  displays                Get the device's current display information.
-  files                   List files on the device.
-  lockState               Get the current locked state of the device.
-  mountpoint              Get the mount point for the device-specific data
-                          folder on the host.
-  processes               List currently running processes on the device.
-
-  See 'devicectl help device info <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device install
-
-```text
-OVERVIEW: Install content onto a device.
-
-This command allows you to install content onto a device.
-
-USAGE: devicectl device install [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  app                     Installs an app.
-
-  See 'devicectl help device install <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device notification
-
-```text
-OVERVIEW: Post and observe Darwin notifications on a device.
-
-USAGE: devicectl device notification [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  post                    Post a Darwin notification to a device.
-  observe                 Observe a Darwin notification on a device.
-
-  See 'devicectl help device notification <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device orientation
-
-```text
-OVERVIEW: Control device orientation.
-
-Query or set simulated device physical orientation (for devices that supported
-it).
-
-USAGE: devicectl device orientation [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  get                     Get Device Orientation
-  rotate                  Rotate Device Orientation
-  set                     Set Device Orientation
-
-  See 'devicectl help device orientation <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device pairings
-
-```text
-OVERVIEW: Manage watch and phone pairings.
-
-This command allows you to manage watch and phone pairings on a device.
-
-USAGE: devicectl device pairings [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  list                    List paired devices.
-  pair                    Create a new watch and phone pair.
-  set-active              Make the watch and phone pairing active.
-  unpair                  Unpair a paired watch and phone.
-
-  See 'devicectl help device pairings <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device pasteboard
-
-```text
-OVERVIEW: Interact with the device pasteboard.
-
-Copy, paste, inspect, monitor, and synchronize the pasteboard on a device.
-
-USAGE: devicectl device pasteboard [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  copy                    Copy data to the device pasteboard.
-  paste                   Paste device pasteboard contents to stdout.
-  info                    Show information about the device pasteboard.
-  monitor                 Monitor device pasteboard for changes.
-  transfer                Transfer pasteboard contents between host and device.
-  sync-with-host          Bidirectional pasteboard sync between host and device.
-
-  See 'devicectl help device pasteboard <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device process
-
-```text
-OVERVIEW: Interact with processes on devices.
-
-Allows users to interact with processes on devices that CoreDevice is aware of.
-
-USAGE: devicectl device process [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  awaitTermination        Waits for the termination of a remote process.
-  launch                  Launch a remote application.
-  openURL                 Open a URL on the device.
-  resume                  Resume a process on a device.
-  sendMemoryWarning       Sends a memory pressure warning to a process on a
-                          device.
-  signal                  Send a signal to a process on a device.
-  suspend                 Suspend a process on a device.
-  terminate               Terminate a process on a device.
-
-  See 'devicectl help device process <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device profile
-
-```text
-OVERVIEW: Manage profiles on a device.
-
-This command allows you to install, validate, remove, and list profiles on a
-device.
-
-Supported profile types:
-  - Provisioning profiles (.mobileprovision): Contain entitlements that allow
-apps
-    to run and access specific capabilities.
-  - Configuration profiles (.mobileconfig): Manage device settings and policies
-    including WiFi, VPN, email, certificates, and restrictions.
-
-The profile type is auto-detected from the file extension, or can be specified
-explicitly using the --type flag.
-
-USAGE: devicectl device profile [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  install                 Install one or more profiles on a device.
-  list                    List profiles installed on a device.
-  remove                  Remove one or more profiles from a device.
-  validate                Validate one or more profiles without installing them.
-
-  See 'devicectl help device profile <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device reboot
-
-```text
-OVERVIEW: Reboot a device.
-
-This command reboots a device.
-
-USAGE: devicectl device reboot --device <uuid|ecid|serial_number|udid|name|dns_name> [--style <style>] [--wait-for-device] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --style <style>         The reboot style to use. Either 'full' or 'userspace'
-                          can be requested. By default, a full reboot is
-                          performed. (default: full)
-  -w, --wait-for-device   Whether the command should wait for the device to
-                          become available again after rebooting. This option
-                          is supported only for devices which are physically
-                          connected to the host.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device rename
-
-```text
-OVERVIEW: Rename a device.
-
-This command changes the user-visible name of a device.
-
-USAGE: devicectl device rename --device <uuid|ecid|serial_number|udid|name|dns_name> --name <name> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --name <name>           The new name to assign to the device.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device settings
-
-```text
-OVERVIEW: Customize device settings.
-
-Allows users to customize various device settings such as appearance, locale,
-and other preferences.
-
-USAGE: devicectl device settings [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  appearance              Set device user interface appearance
-  audio                   Set device audio settings
-  biometrics              Query or control biometric settings.
-  reset                   Reset a device’s content and settings.
-
-  See 'devicectl help device settings <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device simulate
-
-```text
-OVERVIEW: Simulate device behaviors.
-
-Simulate various device behaviors such as location, network conditions,
-sensors, etc.
-
-USAGE: devicectl device simulate [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  biometrics              Simulate biometric authentication events.
-  location                Simulate device location.
-  statusBar               Simulate device status bar appearance.
-
-  See 'devicectl help device simulate <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device sysdiagnose
-
-```text
-OVERVIEW: Gather a sysdiagnose for a device.
-
-This command gathers a sysdiagnose for the indicated device. If you also want
-to gather a sysdiagnose for the host and additional Core Device information,
-please use `devicectl diagnose` instead.
-
-'--json-output -' is not supported; pass '--json-output <path>' instead.
-
-USAGE: devicectl device sysdiagnose --device <uuid|ecid|serial_number|udid|name|dns_name> [--destination <destination>] [--gather-full-logs] [--dry-run-only] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --destination <destination>
-                          Where to place the device's sysdiagnose. By default
-                          the sysdiagnose will be placed in a unique temporary
-                          directory.
-  --gather-full-logs      When running the command, tell sysdiagnose to gather
-                          full logs. Since this can result in significantly
-                          larger sysdiagnose files, this is off by default.
-  --dry-run-only          When running the command, tell sysdiagnose whether to
-                          collect diagnostics. This is used for testing.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl device uninstall
-
-```text
-OVERVIEW: Uninstall content from a device.
-
-This command allows you to uninstall content from a device.
-
-USAGE: devicectl device uninstall [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  app                     Uninstalls an app.
-
-  See 'devicectl help device uninstall <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl list audioDevices
-
-```text
-OVERVIEW: List the host's audio input and output devices.
-
-Lists the audio devices that CoreAudio reports on the host (this Mac). Hidden
-devices and private aggregate devices that macOS creates dynamically are
-filtered out.
-
-USAGE: devicectl list audioDevices [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl list devices
-
-```text
-OVERVIEW: Lists devices that CoreDevice knows about
-
-USAGE: devicectl list devices [--search <search>] [--filter <filter>] [--sort-by <sort-by>] [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-FILTERING OPTIONS:
-  -s, --search <search>   A plain-text search string used to filter results.
-        Performs a case-insensitive substring match across all columns. Rows
-        where any column contains the search string are included in the output.
-         This searches all possible columns, not just visible ones.
-
-        E.g. `--search iPhone` or `-s mac`
-
-        For advanced filtering with specific fields and operators, use
-        `--filter` instead.
-  --filter <filter>       An NSPredicate expression used to filter the list of
-                          items shown.
-        The attribute name can be the column's name from either the table-based
-        output or a fully qualified JSON field identifier from the JSON output.
-
-        Common operators: = (equals), CONTAINS, BEGINSWITH, ENDSWITH, AND, OR,
-        NOT.
-
-        Examples:
-          --filter "Name CONTAINS 'iPhone'"
-          --filter "Identifier = '00008101-000A0C123456001E'"
-          --filter "hardwareProperties.platform BEGINSWITH 'mac'"
-          --filter "Name CONTAINS 'iPad' AND State = 'available'"
-
-        For simple text matching across all columns, use `--search` instead.
-  --sort-by <sort-by>     If specified, a key path by which to sort results.
-  --columns <columns>     If specified, additional data columns to print.
-                          Specify '*' (in quotes) for all data columns.
-  --hide-default-columns  Hide default data columns and only print those
-                          specified with --columns.
-  --hide-headers          Hide data column headers.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl list plugins
-
-```text
-OVERVIEW: List loaded plugin information for devicectl and CoreDeviceService. 
-
-USAGE: devicectl list plugins [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl list preferredDDI
-
-```text
-OVERVIEW: List the DDI that CoreDevice will use for a given platform.
-
-This command allows the user to see what Developer Disk Image (DDI) would be
-used for a given platform. If no usable DDI is available, this command will
-return the best DDI available, even though it is unusable.
-
-USAGE: devicectl list preferredDDI [--platform <platform>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-COMMAND OPTIONS:
-  --platform <platform>   The device platform of the requested DDI.
-        If this is not provided, DDIs will be shown for all supported
-        platforms. Examples: iOS, watchOS
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl manage ddis
-
-```text
-OVERVIEW: Commands used to manage the set of developer disk images present on
-the host.
-
-Provides commands to clean out the existing set of developer disk images
-present on the host and to update the set of DDIs present on the host (given a
-directory of candidate DDIs).
-
-USAGE: devicectl manage ddis [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  clean                   Removes any developer disk images installed on the
-                          host.
-  update                  Update the DDIs installed on the host.
-
-  See 'devicectl help manage ddis <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl manage loggingProfile
-
-```text
-OVERVIEW: Commands used to manage the Core Device logging profile.
-
-Provides commands to activate the Core Device logging profile. The Core Device
-logging profile ensures that archives of the system logs on your Mac will
-contain additional information that is helpful when filing feedback and bug
-reports.
-
-USAGE: devicectl manage loggingProfile [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  register                Registers the Core Device logging profile on your Mac
-                          and optionally opens System Settings.
-
-  See 'devicectl help manage loggingProfile <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl manage pair
-
-```text
-OVERVIEW: Pair with a given device.
-
-This command attempts to pair with a device discovered by CoreDevice.
-
-USAGE: devicectl manage pair --device <uuid|ecid|serial_number|udid|name|dns_name> [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-FORMATTING OPTIONS:
-  --columns <columns>     If specified, additional data columns to print.
-                          Specify '*' (in quotes) for all data columns.
-  --hide-default-columns  Hide default data columns and only print those
-                          specified with --columns.
-  --hide-headers          Hide data column headers.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-#### devicectl manage unpair
-
-```text
-OVERVIEW: Unpair a manually paired device.
-
-This command unpairs a manually paired device.
-
-USAGE: devicectl manage unpair --device <uuid|ecid|serial_number|udid|name|dns_name> [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-FORMATTING OPTIONS:
-  --columns <columns>     If specified, additional data columns to print.
-                          Specify '*' (in quotes) for all data columns.
-  --hide-default-columns  Hide default data columns and only print those
-                          specified with --columns.
-  --hide-headers          Hide data column headers.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
 ##### devicectl device appResize observe
 
 ```text
@@ -1622,7 +310,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device appResize set
 
@@ -1672,7 +359,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device appResize start
 
@@ -1727,6 +413,47 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device capture
+
+```text
+OVERVIEW: Capture the device's screen.
+
+Commands for capturing the device's screen content.
+
+USAGE: devicectl device capture [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  screen-record           Record the device's screen.
+  screenshot              Capture a screenshot from the device.
+
+  See 'devicectl help device capture <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device capture screen-record
 
@@ -1791,7 +518,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device capture screenshot
 
 ```text
@@ -1846,6 +572,47 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device copy
+
+```text
+OVERVIEW: Copy files.
+
+This command allows you to copy files to and from a device.
+
+USAGE: devicectl device copy [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  to                      Copy a file or directory to the device.
+  from                    Receive a file from the remote device.
+
+  See 'devicectl help device copy <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device copy to
 
@@ -1918,7 +685,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device copy from
 
 ```text
@@ -1988,6 +754,61 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device info
+
+```text
+OVERVIEW: Commands that provide information about a specific device
+
+Provides access to device information like processes, installed roots,
+installed files, and other device state.
+
+USAGE: devicectl device info [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  appIcon                 Request app icon generation from this device.
+  appResize               Get the current resizable app session state.
+  appearance              Get Device UI Appearance Information
+  apps                    List apps installed on the device.
+  audio                   Get device audio settings
+  authListing             Get the device's AuthListing identifiers.
+  ddiServices             Get information on the developer disk image services
+                          on the device.
+  details                 Get information about the current device.
+  displays                Get the device's current display information.
+  files                   List files on the device.
+  lockState               Get the current locked state of the device.
+  mountpoint              Get the mount point for the device-specific data
+                          folder on the host.
+  processes               List currently running processes on the device.
+
+  See 'devicectl help device info <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device info appIcon
 
@@ -2071,7 +892,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info appResize
 
 ```text
@@ -2118,7 +938,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info appearance
 
 ```text
@@ -2160,7 +979,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device info apps
 
@@ -2288,7 +1106,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info audio
 
 ```text
@@ -2331,7 +1148,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info authListing
 
 ```text
@@ -2373,7 +1189,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device info ddiServices
 
@@ -2427,7 +1242,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info details
 
 ```text
@@ -2479,7 +1293,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info displays
 
 ```text
@@ -2520,7 +1333,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device info files
 
@@ -2620,7 +1432,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info lockState
 
 ```text
@@ -2663,7 +1474,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device info mountpoint
 
 ```text
@@ -2705,7 +1515,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device info processes
 
@@ -2780,6 +1589,46 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device install
+
+```text
+OVERVIEW: Install content onto a device.
+
+This command allows you to install content onto a device.
+
+USAGE: devicectl device install [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  app                     Installs an app.
+
+  See 'devicectl help device install <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device install app
 
@@ -2858,6 +1707,45 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device notification
+
+```text
+OVERVIEW: Post and observe Darwin notifications on a device.
+
+USAGE: devicectl device notification [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  post                    Post a Darwin notification to a device.
+  observe                 Observe a Darwin notification on a device.
+
+  See 'devicectl help device notification <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device notification post
 
@@ -2903,7 +1791,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device notification observe
 
@@ -2958,6 +1845,49 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device orientation
+
+```text
+OVERVIEW: Control device orientation.
+
+Query or set simulated device physical orientation (for devices that supported
+it).
+
+USAGE: devicectl device orientation [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  get                     Get Device Orientation
+  rotate                  Rotate Device Orientation
+  set                     Set Device Orientation
+
+  See 'devicectl help device orientation <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device orientation get
 
@@ -2999,7 +1929,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device orientation rotate
 
@@ -3046,7 +1975,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device orientation set
 
@@ -3096,6 +2024,49 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device pairings
+
+```text
+OVERVIEW: Manage watch and phone pairings.
+
+This command allows you to manage watch and phone pairings on a device.
+
+USAGE: devicectl device pairings [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  list                    List paired devices.
+  pair                    Create a new watch and phone pair.
+  set-active              Make the watch and phone pairing active.
+  unpair                  Unpair a paired watch and phone.
+
+  See 'devicectl help device pairings <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device pairings list
 
@@ -3170,7 +2141,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device pairings pair
 
 ```text
@@ -3214,7 +2184,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device pairings set-active
 
@@ -3260,7 +2229,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device pairings unpair
 
 ```text
@@ -3305,6 +2273,51 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
+#### devicectl device pasteboard
+
+```text
+OVERVIEW: Interact with the device pasteboard.
+
+Copy, paste, inspect, monitor, and synchronize the pasteboard on a device.
+
+USAGE: devicectl device pasteboard [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  copy                    Copy data to the device pasteboard.
+  paste                   Paste device pasteboard contents to stdout.
+  info                    Show information about the device pasteboard.
+  monitor                 Monitor device pasteboard for changes.
+  transfer                Transfer pasteboard contents between host and device.
+  sync-with-host          Bidirectional pasteboard sync between host and device.
+
+  See 'devicectl help device pasteboard <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ##### devicectl device pasteboard copy
 
@@ -3371,7 +2384,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device pasteboard paste
 
 ```text
@@ -3436,7 +2448,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device pasteboard info
 
 ```text
@@ -3482,7 +2493,6 @@ OPTIONS:
 ```
 
 [↑ Back to Command Index](#index)
-
 
 ##### devicectl device pasteboard monitor
 
@@ -3536,7 +2546,6 @@ OPTIONS:
 
 [↑ Back to Command Index](#index)
 
-
 ##### devicectl device pasteboard transfer
 
 ```text
@@ -3576,1363 +2585,6 @@ SUBCOMMANDS:
 ```
 
 [↑ Back to Command Index](#index)
-
-
-##### devicectl device pasteboard sync-with-host
-
-```text
-OVERVIEW: Bidirectional pasteboard sync between host and device.
-
-Continuously synchronizes the pasteboard between the host and device. When the
-device pasteboard changes, the host pasteboard is updated, and vice versa. This
-command will run for 300 seconds by default before exiting.
-
-USAGE: devicectl device pasteboard sync-with-host [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --session-timeout <session-timeout>
-                          Optional parameter for the amount of time (in
-                          seconds) to wait before exiting. Default: 300
-                          (default: 300)
-        Note that this is a separate parameter from, and must be less than, the
-        global --timeout.
-  --device-pasteboard <device-pasteboard>
-                          Name of the device pasteboard. (default: general)
-  --host-pasteboard <host-pasteboard>
-                          Name of the host pasteboard. (default: general)
-  --data-policy-from-device <policy>
-                          Data policy for device-to-host transfers. (values:
-                          match-source, all-resolved, all-promised,
-                          promise-secondary, threshold-data)
-        Controls which types include inline data vs. promises when reading from
-        the device pasteboard. Defaults to threshold-data.
-  --data-policy-to-device <policy>
-                          Data policy for host-to-device transfers. (values:
-                          match-source, all-resolved, all-promised,
-                          promise-secondary, threshold-data)
-        Controls which types include inline data vs. promises when writing to
-        the device pasteboard. Defaults to threshold-data.
-  --data-policy <policy>  Data policy for both directions. (values:
-                          match-source, all-resolved, all-promised,
-                          promise-secondary, threshold-data)
-        Sets the data policy for both device-to-host and host-to-device
-        transfers. Overridden by --data-policy-from-device or
-        --data-policy-to-device if specified.
-  --data-threshold-bytes <bytes>
-                          Size threshold in bytes for threshold-data mode.
-                          (default: 16384)
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process awaitTermination
-
-```text
-OVERVIEW: Waits for the termination of a remote process.
-
-This command waits for the termination of a process on the device and returns
-the exit status.
-
-USAGE: devicectl device process awaitTermination --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process ID to monitor.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process launch
-
-```text
-OVERVIEW: Launch a remote application.
-
-This command launches an application on a device and passes it specific
-arguments.
-
-If you want to set environment variables in the resulting environment, set them
-in the calling environment with a DEVICECTL_CHILD_ prefix.
-
-Once the application has launched, you can attach to it using LLDB. For
-example, if you have an iPhone named 'iPhone' connected to your Mac, and your
-application running on the iPhone has the process identifier of 10684, you can
-debug your application using the following steps:
-
-$ xcrun lldb
-(lldb) device select iPhone
-(lldb) device process attach -p 10684
-
-See LLDB's help for information about all supported commands.
-
---console bridges the app's stdout to devicectl's stdout, so '--json-output -'
-is not supported with --console; pass '--json-output <path>' instead.
-
-USAGE: devicectl device process launch [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name> <bundle-identifier-or-path> [<command-line-arguments> ...]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -u, --user <user>       The user ID or name to run as.
-  -e, --environment-variables <environment-variables>
-                          A JSON-encoded dictionary of environment variables
-                          and their values to provide to the process.
-        Keys and values must be strings.
-        Example: '{"PATH": "/usr/local/bin", "REPORTTIME": "2", "LANG":
-        "en_US.UTF-8"}'
-
-        Note: Using the environment-variables flag will override the caller
-        environment variables prefixed with DEVICECTL_CHILD_.
-  <bundle-identifier-or-path>
-                          The bundle identifier of or path to the remote
-                          application.
-  <command-line-arguments>
-                          Arguments to pass to the remote application.
-  --start-stopped         Launches the app in a suspended state, waiting for a
-                          debugger.
-  --working-directory <working-directory>
-                          The initial working directory for the spawned process.
-  --arch <arch>           The architecture slice to prefer when launching the
-                          application.
-  --payload-url <payload-url>
-                          A URL to pass to the application for it to open
-                          during launch.
-  --activate/--no-activate
-                          Launches the application in the foreground. (default:
-                          --activate)
-        Whether or not to activate the application when starting it. Not
-        supported on all platforms.
-  --terminate-existing    Terminates any already-running instances of the app
-                          prior to launch. Not supported on all platforms.
-  --display <display>     The unique identifier of the display to launch the
-                          app on.
-        Use 'devicectl device info displays' to list available displays and
-        their unique identifiers. Not supported on all platforms.
-  --launch-persistent-identifier <launch-persistent-identifier>
-                          The base64-encoded Launch Services persistent
-                          identifier of a recently installed app.
-        This is the 'launchServicesIdentifier' value returned by 'devicectl
-        device install app'. It allows the system to synchronize the
-        distributed knowledge of an app installation.
-  --console               Attaches the application to the console and waits for
-                          it to exit.
-        devicectl will wait for the app to terminate. Catchable signals sent to
-        devicectl are forwarded to the app. If the app is not already running,
-        its standard streams will be connected to devicectl's standard streams.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process openURL
-
-```text
-OVERVIEW: Open a URL on the device.
-
-This command opens a URL on the device using the default application
-registered to handle that URL type.
-
-For example, to open a web page:
-    devicectl device process openURL https://apple.com --device <device>
-
-To open a custom URL scheme:
-    devicectl device process openURL myapp://action --device <device>
-
-USAGE: devicectl device process openURL --device <uuid|ecid|serial_number|udid|name|dns_name> <url> [--activate] [--no-activate] [--terminate-existing] [--display <display>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  <url>                   The URL to open on the device.
-  --activate/--no-activate
-                          Launches the application in the foreground. (default:
-                          --activate)
-        Whether or not to activate the application when starting it. Not
-        supported on all platforms.
-  --terminate-existing    Terminates any already-running instances of the app
-                          prior to launch. Not supported on all platforms.
-  --display <display>     The unique identifier of the display to open the URL
-                          on.
-        Use 'devicectl device info displays' to list available displays and
-        their unique identifiers. Not supported on all platforms.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process resume
-
-```text
-OVERVIEW: Resume a process on a device.
-
-This command attempts to resume a process on a device.
-
-USAGE: devicectl device process resume --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process identifier to resume.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process sendMemoryWarning
-
-```text
-OVERVIEW: Sends a memory pressure warning to a process on a device.
-
-This command attempts to send a memory pressure warning to a process on a
-device.
-
-USAGE: devicectl device process sendMemoryWarning --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process identifier to target.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process signal
-
-```text
-OVERVIEW: Send a signal to a process on a device.
-
-This command attempts to send a signal to a process on a device.
-
-USAGE: devicectl device process signal --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> --signal <signal> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process identifier to send a signal to.
-  -s, --signal <signal>   The signal to send to a process. See 'man signal' for
-                          a list of signals.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process suspend
-
-```text
-OVERVIEW: Suspend a process on a device.
-
-This command attempts to suspend a process on a device.
-
-USAGE: devicectl device process suspend --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process identifier to suspend.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device process terminate
-
-```text
-OVERVIEW: Terminate a process on a device.
-
-  "This command attempts to terminate a process on a device.
-
-USAGE: devicectl device process terminate --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--kill] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  -p, --pid <pid>         The process identifier to terminate.
-  --kill                  Do not allow the target process to catch the
-                          termination signal (i.e. use SIGKILL instead of
-                          SIGTERM).
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device profile install
-
-```text
-OVERVIEW: Install one or more profiles on a device.
-
-This command installs profile(s) on the device. Both provisioning profiles
-(.mobileprovision) and configuration profiles (.mobileconfig) are supported.
-
-The profile type is auto-detected from the file extension, or can be specified
-explicitly using --type.
-
-Multiple profiles can be specified and will be installed in a batch operation.
-Each profile will be validated before installation.
-Use 'devicectl device profile validate' to check a profile without installing
-it.
-
-USAGE: devicectl device profile install --device <uuid|ecid|serial_number|udid|name|dns_name> <paths> ... [--type <type>] [--replace-existing] [--no-replace-existing] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  <paths>                 The path(s) to the profile(s) to install
-                          (.mobileprovision or .mobileconfig)
-  --type <type>           Force profile type (provisioning or configuration).
-                          Auto-detected from file extension if not specified.
-                          (values: provisioning, configuration)
-  --replace-existing/--no-replace-existing
-                          Allow replacing existing profiles with the same
-                          identifier (default: --replace-existing)
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device profile list
-
-```text
-OVERVIEW: List profiles installed on a device.
-
-This command lists all profiles installed on the device, including both
-provisioning profiles (.mobileprovision) and configuration profiles
-(.mobileconfig).
-
-Use --type to filter by profile type.
-
-USAGE: devicectl device profile list [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --type <type>           Filter by profile type (provisioning or
-                          configuration) (values: provisioning, configuration)
-
-FILTERING OPTIONS:
-  -s, --search <search>   A plain-text search string used to filter results.
-        Performs a case-insensitive substring match across all columns. Rows
-        where any column contains the search string are included in the output.
-         This searches all possible columns, not just visible ones.
-
-        E.g. `--search iPhone` or `-s mac`
-
-        For advanced filtering with specific fields and operators, use
-        `--filter` instead.
-  --filter <filter>       An NSPredicate expression used to filter the list of
-                          items shown.
-        The attribute name can be the column's name from either the table-based
-        output or a fully qualified JSON field identifier from the JSON output.
-
-        Common operators: = (equals), CONTAINS, BEGINSWITH, ENDSWITH, AND, OR,
-        NOT.
-
-        Examples:
-          --filter "Name CONTAINS 'iPhone'"
-          --filter "Identifier = '00008101-000A0C123456001E'"
-          --filter "hardwareProperties.platform BEGINSWITH 'mac'"
-          --filter "Name CONTAINS 'iPad' AND State = 'available'"
-
-        For simple text matching across all columns, use `--search` instead.
-  --sort-by <sort-by>     If specified, a key path by which to sort results.
-  --columns <columns>     If specified, additional data columns to print.
-                          Specify '*' (in quotes) for all data columns.
-  --hide-default-columns  Hide default data columns and only print those
-                          specified with --columns.
-  --hide-headers          Hide data column headers.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device profile remove
-
-```text
-OVERVIEW: Remove one or more profiles from a device.
-
-This command removes profile(s) from the device.
-
-For provisioning profiles, specify the UUID (e.g.,
-"12345678-1234-1234-1234-123456789ABC").
-For configuration profiles, specify the payload identifier (e.g.,
-"com.example.myprofile").
-
-The profile type is auto-detected based on the identifier format, or can be
-specified
-explicitly using --type.
-
-Use 'devicectl device profile list' to see available profiles and their
-identifiers.
-
-USAGE: devicectl device profile remove --device <uuid|ecid|serial_number|udid|name|dns_name> <identifiers> ... [--type <type>] [--force-removal] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  <identifiers>           The identifier(s) of the profile(s) to remove. UUIDs
-                          for provisioning profiles, payload identifiers for
-                          configuration profiles.
-  --type <type>           Profile type (provisioning or configuration). If not
-                          specified, auto-detects based on identifier format.
-                          (values: provisioning, configuration)
-  --force-removal         Force removal even if profile is not found on device
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device profile validate
-
-```text
-OVERVIEW: Validate one or more profiles without installing them.
-
-This command validates profile(s) without installing them.
-Multiple profiles can be specified and will be validated in a batch operation.
-
-Supported profile types:
-  - Provisioning profiles (.mobileprovision): Validation includes signature
-verification,
-    expiration checking, and format validation.
-  - Configuration profiles (.mobileconfig): Validation includes format
-checking,
-    expiration checking, and payload validation.
-
-The profile type is auto-detected from the file extension, or can be specified
-explicitly using the --type flag.
-
-This is a local operation and does not require a device connection.
-
-USAGE: devicectl device profile validate <paths> ... [--type <type>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-COMMAND OPTIONS:
-  <paths>                 The path(s) to the profile(s) to validate
-                          (.mobileprovision or .mobileconfig)
-  --type <type>           The type of profile to validate (provisioning or
-                          configuration). Auto-detected from file extension if
-                          not specified. (values: provisioning, configuration)
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device settings appearance
-
-```text
-OVERVIEW: Set device user interface appearance
-
-Set the user interface style (light/dark), look and feel, text size, increase
-contrast, reduce motion, reduce transparency, show borders, Liquid Glass
-opacity, and/or color filter for a device (if supported).
-Use 'devicectl device info appearance' to get the current appearance settings.
-
-USAGE: devicectl device settings appearance [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --mode <mode>           The user interface style to set (values: light, dark,
-                          l, d)
-        Valid values: light or dark
-  --look-and-feel <look-and-feel>
-                          The look and feel to set (values: clear, tinted, c, t)
-        Valid values: clear, tinted
-  --text-size <text-size> The text size to set (values: extra-small, small,
-                          medium, large, extra-large, extra-extra-large,
-                          extra-extra-extra-large, xs, s, m, l, xl, xxl, xxxl)
-        Valid values: extra-small, small, medium, large, extra-large,
-        extra-extra-large, extra-extra-extra-large
-  --increase-contrast <increase-contrast>
-                          Enable or disable increased contrast (values: on, off)
-        Valid values: on, off
-  --reduce-motion <reduce-motion>
-                          The reduce motion setting (values: on, off)
-        Valid values: on, off
-  --reduce-transparency <reduce-transparency>
-                          The reduce transparency setting (values: on, off)
-        Valid values: on, off
-  --show-borders <show-borders>
-                          The show borders setting (values: on, off)
-        Valid values: on, off
-  --liquid-glass-opacity <liquid-glass-opacity>
-                          The Liquid Glass opacity level
-        A value from 0.0 (fully translucent) to 1.0 (fully opaque)
-  --color-filter <color-filter>
-                          Enable or disable the color filter (values: on, off)
-        Valid values: on, off
-  --color-filter-type <color-filter-type>
-                          The color filter type (values: grayscale, protanopia,
-                          deuteranopia, tritanopia, gray, red-green, green-red,
-                          blue-yellow)
-        Valid values: grayscale, protanopia (red-green), deuteranopia
-        (green-red), tritanopia (blue-yellow)
-  --color-filter-intensity <color-filter-intensity>
-                          The color filter intensity (does not apply to
-                          grayscale)
-        A value from 0.25 to 1.0
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device settings audio
-
-```text
-OVERVIEW: Set device audio settings
-
-Set the audio output device, audio input device, and/or volume level for a
-device (if supported).
-Use 'devicectl device info audio' to get the current audio settings.
-
-USAGE: devicectl device settings audio --device <uuid|ecid|serial_number|udid|name|dns_name> [--output-device <output-device>] [--input-device <input-device>] [--volume <volume>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --output-device <output-device>
-                          The audio output device to use
-        Use 'systemDefault' for the host system's default audio device, or a
-        device identifier string to pin to a specific device.
-  --input-device <input-device>
-                          The audio input device to use
-        Use 'systemDefault' for the host system's default audio device, or a
-        device identifier string to pin to a specific device.
-  --volume <volume>       The volume level to set (0–100)
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device settings biometrics
-
-```text
-OVERVIEW: Query or control biometric settings.
-
-Query, enable, or disable biometrics on a device. Pass `--enable` or
-`--disable` to change the enrollment state of all supported biometric types
-(Touch ID, Face ID, Optic ID). With no flag, the command reports the current
-enrollment state for each supported biometric type without making any changes.
-
-USAGE: devicectl device settings biometrics --device <uuid|ecid|serial_number|udid|name|dns_name> [--enable] [--disable] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --enable                Enable biometrics on the device.
-  --disable               Disable biometrics on the device.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device settings reset
-
-```text
-OVERVIEW: Reset a device’s content and settings.
-
-This will restore the device to factory settings and erase all user content
-and files.
-
-USAGE: devicectl device settings reset --device <uuid|ecid|serial_number|udid|name|dns_name> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device simulate biometrics
-
-```text
-OVERVIEW: Simulate biometric authentication events.
-
-Simulate biometric authentication events on a device. The device must have
-biometrics enabled for this to take effect. This command acts on all supported
-biometric types.
-
-USAGE: devicectl device simulate biometrics --device <uuid|ecid|serial_number|udid|name|dns_name> --success --failure [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  --success               Simulate a successful biometric match.
-  --failure               Simulate a failed biometric match.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device simulate location
-
-```text
-OVERVIEW: Simulate device location.
-
-Simulate a device being at a specific location or moving along a route.
-
-USAGE: devicectl device simulate location [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  clear                   Clear any active location simulation
-  coordinate              Set location to specific coordinates
-  list                    List available location scenarios
-  route                   Simulate movement along waypoints
-  scenario                Set location using a pre-defined scenario or from a
-                          file
-
-  See 'devicectl help device simulate location <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device simulate statusBar
-
-```text
-OVERVIEW: Simulate device status bar appearance.
-
-Customize the appearance of the device's status bar for screenshots and UI
-testing. Override indicators like time, network type, signal strength, and
-battery level.
-
-USAGE: devicectl device simulate statusBar [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-
-SUBCOMMANDS:
-  clear                   Clear any active status bar overrides
-  override                Override status bar indicators with custom values
-  preset                  Apply a preset status bar configuration
-  show                    Show currently active status bar overrides
-
-  See 'devicectl help device simulate statusBar <subcommand>' for detailed help.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl device uninstall app
-
-```text
-OVERVIEW: Uninstalls an app.
-
-This command removes an app from the device.
-
-USAGE: devicectl device uninstall app --device <uuid|ecid|serial_number|udid|name|dns_name> <bundle-identifier> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-DEVICE OPTIONS:
-  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
-                          The identifier, ECID, serial number, UDID,
-                          user-provided name, or DNS name of the device.
-
-COMMAND OPTIONS:
-  <bundle-identifier>     The bundle identifier of the application to uninstall.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl manage ddis clean
-
-```text
-OVERVIEW: Removes any developer disk images installed on the host.
-
-This command removes any developer disk images installed on the host (in
-/Library/Developer/DeveloperDiskImages).
-
-USAGE: devicectl manage ddis clean [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl manage ddis update
-
-```text
-OVERVIEW: Update the DDIs installed on the host.
-
-This command updates the set of DDIs installed on the host (in
-/Library/Developer/DeveloperDiskImages). By default the DDIs from the selected
-Xcode are used to update the host. The user can provide a directory of DDIs to
-use instead via the --source-dir flag.
-
-USAGE: devicectl manage ddis update [--source-dir <source-dir> ...] [--clean] [--no-clean] [--include-coredevice] [--no-include-coredevice] [--include-xcode] [--no-include-xcode] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-COMMAND OPTIONS:
-  --source-dir <source-dir>
-                          Additional absolute path to the directory containing
-                          DDIs to install.
-        Multiple source directories can be provided by passing in the option
-        multiple times.
-  --clean/--no-clean      Clean out /Library/Developer/DeveloperDiskImages
-                          before updating DDIs (default: --no-clean)
-        If set, devicectl will remove /Library/Developer/DeveloperDiskImages
-        and replace it with an empty directory before updating the DDIs on the
-        host.
-  --include-coredevice/--no-include-coredevice
-                          Include DDIs from
-                          /Library/Developer/CoreDevice/CandidateDDIs as
-                          candidate DDIs to consider when updating. (default:
-                          --include-coredevice)
-        If set, devicectl will include
-        /Library/Developer/CoreDevice/CandidateDDIs in the set of DDIs to
-        consider when updating. By default, this directory is included.
-  --include-xcode/--no-include-xcode
-                          Include DDIs from the selected Xcode.app (if present)
-                          as candidate DDIs to consider when updating.
-                          (default: --include-xcode)
-        If set, devicectl will include DDIs present in the selected Xcode.app
-        (if present) in the set of DDIs to consider when updating. By default,
-        DDIs are included from the selected Xcode.
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
-
-##### devicectl manage loggingProfile register
-
-```text
-OVERVIEW: Registers the Core Device logging profile on your Mac and optionally
-opens System Settings.
-
-Registers a special logging profile on your Mac which allows Core Device to log
-all of the data it collects. This profile is useful if you want to collect data
-for debugging purposes or for filing feedback reports, and the profile can be
-uninstalled at any time. After the logging profile is registered, you must
-activate it in System Settings.
-
-USAGE: devicectl manage loggingProfile register [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
-
-OUTPUT OPTIONS:
-  -v, --verbose           If given, provide more logging output than normal.
-  -q, --quiet             If given, output will include only errors.
-  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
-                          is exceeded the command is abandoned as a failure.
-  -j, --json-output <path>
-                          An optional path to write a JSON file with command
-                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
-                          write the JSON to stdout instead of a file.
-        For a file path, both absolute and working-directory-relative forms are
-        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
-        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
-        human-readable output (progress, status, log lines) is routed to stderr
-        instead. A few commands write non-JSON content to stdout themselves
-        (binary payloads, bridged remote stdout, legal notices) and will reject
-        stdout-selecting values at validation time — see each command's help
-        for details.
-  -l, --log-output <path> An optional path to write all logging otherwise
-                          passed to stdout/stderr.
-
-OPTIONS:
-  --version               Show the version.
-  -h, --help              Show help information.
-```
-
-[↑ Back to Command Index](#index)
-
 
 ###### devicectl device pasteboard transfer to
 
@@ -5059,6 +2711,1391 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+##### devicectl device pasteboard sync-with-host
+
+```text
+OVERVIEW: Bidirectional pasteboard sync between host and device.
+
+Continuously synchronizes the pasteboard between the host and device. When the
+device pasteboard changes, the host pasteboard is updated, and vice versa. This
+command will run for 300 seconds by default before exiting.
+
+USAGE: devicectl device pasteboard sync-with-host [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --session-timeout <session-timeout>
+                          Optional parameter for the amount of time (in
+                          seconds) to wait before exiting. Default: 300
+                          (default: 300)
+        Note that this is a separate parameter from, and must be less than, the
+        global --timeout.
+  --device-pasteboard <device-pasteboard>
+                          Name of the device pasteboard. (default: general)
+  --host-pasteboard <host-pasteboard>
+                          Name of the host pasteboard. (default: general)
+  --data-policy-from-device <policy>
+                          Data policy for device-to-host transfers. (values:
+                          match-source, all-resolved, all-promised,
+                          promise-secondary, threshold-data)
+        Controls which types include inline data vs. promises when reading from
+        the device pasteboard. Defaults to threshold-data.
+  --data-policy-to-device <policy>
+                          Data policy for host-to-device transfers. (values:
+                          match-source, all-resolved, all-promised,
+                          promise-secondary, threshold-data)
+        Controls which types include inline data vs. promises when writing to
+        the device pasteboard. Defaults to threshold-data.
+  --data-policy <policy>  Data policy for both directions. (values:
+                          match-source, all-resolved, all-promised,
+                          promise-secondary, threshold-data)
+        Sets the data policy for both device-to-host and host-to-device
+        transfers. Overridden by --data-policy-from-device or
+        --data-policy-to-device if specified.
+  --data-threshold-bytes <bytes>
+                          Size threshold in bytes for threshold-data mode.
+                          (default: 16384)
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device process
+
+```text
+OVERVIEW: Interact with processes on devices.
+
+Allows users to interact with processes on devices that CoreDevice is aware of.
+
+USAGE: devicectl device process [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  awaitTermination        Waits for the termination of a remote process.
+  launch                  Launch a remote application.
+  openURL                 Open a URL on the device.
+  resume                  Resume a process on a device.
+  sendMemoryWarning       Sends a memory pressure warning to a process on a
+                          device.
+  signal                  Send a signal to a process on a device.
+  suspend                 Suspend a process on a device.
+  terminate               Terminate a process on a device.
+
+  See 'devicectl help device process <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process awaitTermination
+
+```text
+OVERVIEW: Waits for the termination of a remote process.
+
+This command waits for the termination of a process on the device and returns
+the exit status.
+
+USAGE: devicectl device process awaitTermination --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process ID to monitor.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process launch
+
+```text
+OVERVIEW: Launch a remote application.
+
+This command launches an application on a device and passes it specific
+arguments.
+
+If you want to set environment variables in the resulting environment, set them
+in the calling environment with a DEVICECTL_CHILD_ prefix.
+
+Once the application has launched, you can attach to it using LLDB. For
+example, if you have an iPhone named 'iPhone' connected to your Mac, and your
+application running on the iPhone has the process identifier of 10684, you can
+debug your application using the following steps:
+
+$ xcrun lldb
+(lldb) device select iPhone
+(lldb) device process attach -p 10684
+
+See LLDB's help for information about all supported commands.
+
+--console bridges the app's stdout to devicectl's stdout, so '--json-output -'
+is not supported with --console; pass '--json-output <path>' instead.
+
+USAGE: devicectl device process launch [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name> <bundle-identifier-or-path> [<command-line-arguments> ...]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -u, --user <user>       The user ID or name to run as.
+  -e, --environment-variables <environment-variables>
+                          A JSON-encoded dictionary of environment variables
+                          and their values to provide to the process.
+        Keys and values must be strings.
+        Example: '{"PATH": "/usr/local/bin", "REPORTTIME": "2", "LANG":
+        "en_US.UTF-8"}'
+
+        Note: Using the environment-variables flag will override the caller
+        environment variables prefixed with DEVICECTL_CHILD_.
+  <bundle-identifier-or-path>
+                          The bundle identifier of or path to the remote
+                          application.
+  <command-line-arguments>
+                          Arguments to pass to the remote application.
+  --start-stopped         Launches the app in a suspended state, waiting for a
+                          debugger.
+  --working-directory <working-directory>
+                          The initial working directory for the spawned process.
+  --arch <arch>           The architecture slice to prefer when launching the
+                          application.
+  --payload-url <payload-url>
+                          A URL to pass to the application for it to open
+                          during launch.
+  --activate/--no-activate
+                          Launches the application in the foreground. (default:
+                          --activate)
+        Whether or not to activate the application when starting it. Not
+        supported on all platforms.
+  --terminate-existing    Terminates any already-running instances of the app
+                          prior to launch. Not supported on all platforms.
+  --display <display>     The unique identifier of the display to launch the
+                          app on.
+        Use 'devicectl device info displays' to list available displays and
+        their unique identifiers. Not supported on all platforms.
+  --launch-persistent-identifier <launch-persistent-identifier>
+                          The base64-encoded Launch Services persistent
+                          identifier of a recently installed app.
+        This is the 'launchServicesIdentifier' value returned by 'devicectl
+        device install app'. It allows the system to synchronize the
+        distributed knowledge of an app installation.
+  --console               Attaches the application to the console and waits for
+                          it to exit.
+        devicectl will wait for the app to terminate. Catchable signals sent to
+        devicectl are forwarded to the app. If the app is not already running,
+        its standard streams will be connected to devicectl's standard streams.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process openURL
+
+```text
+OVERVIEW: Open a URL on the device.
+
+This command opens a URL on the device using the default application
+registered to handle that URL type.
+
+For example, to open a web page:
+    devicectl device process openURL https://apple.com --device <device>
+
+To open a custom URL scheme:
+    devicectl device process openURL myapp://action --device <device>
+
+USAGE: devicectl device process openURL --device <uuid|ecid|serial_number|udid|name|dns_name> <url> [--activate] [--no-activate] [--terminate-existing] [--display <display>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  <url>                   The URL to open on the device.
+  --activate/--no-activate
+                          Launches the application in the foreground. (default:
+                          --activate)
+        Whether or not to activate the application when starting it. Not
+        supported on all platforms.
+  --terminate-existing    Terminates any already-running instances of the app
+                          prior to launch. Not supported on all platforms.
+  --display <display>     The unique identifier of the display to open the URL
+                          on.
+        Use 'devicectl device info displays' to list available displays and
+        their unique identifiers. Not supported on all platforms.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process resume
+
+```text
+OVERVIEW: Resume a process on a device.
+
+This command attempts to resume a process on a device.
+
+USAGE: devicectl device process resume --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process identifier to resume.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process sendMemoryWarning
+
+```text
+OVERVIEW: Sends a memory pressure warning to a process on a device.
+
+This command attempts to send a memory pressure warning to a process on a
+device.
+
+USAGE: devicectl device process sendMemoryWarning --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process identifier to target.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process signal
+
+```text
+OVERVIEW: Send a signal to a process on a device.
+
+This command attempts to send a signal to a process on a device.
+
+USAGE: devicectl device process signal --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> --signal <signal> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process identifier to send a signal to.
+  -s, --signal <signal>   The signal to send to a process. See 'man signal' for
+                          a list of signals.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process suspend
+
+```text
+OVERVIEW: Suspend a process on a device.
+
+This command attempts to suspend a process on a device.
+
+USAGE: devicectl device process suspend --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process identifier to suspend.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device process terminate
+
+```text
+OVERVIEW: Terminate a process on a device.
+
+  "This command attempts to terminate a process on a device.
+
+USAGE: devicectl device process terminate --device <uuid|ecid|serial_number|udid|name|dns_name> --pid <pid> [--kill] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  -p, --pid <pid>         The process identifier to terminate.
+  --kill                  Do not allow the target process to catch the
+                          termination signal (i.e. use SIGKILL instead of
+                          SIGTERM).
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device profile
+
+```text
+OVERVIEW: Manage profiles on a device.
+
+This command allows you to install, validate, remove, and list profiles on a
+device.
+
+Supported profile types:
+  - Provisioning profiles (.mobileprovision): Contain entitlements that allow
+apps
+    to run and access specific capabilities.
+  - Configuration profiles (.mobileconfig): Manage device settings and policies
+    including WiFi, VPN, email, certificates, and restrictions.
+
+The profile type is auto-detected from the file extension, or can be specified
+explicitly using the --type flag.
+
+USAGE: devicectl device profile [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  install                 Install one or more profiles on a device.
+  list                    List profiles installed on a device.
+  remove                  Remove one or more profiles from a device.
+  validate                Validate one or more profiles without installing them.
+
+  See 'devicectl help device profile <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device profile install
+
+```text
+OVERVIEW: Install one or more profiles on a device.
+
+This command installs profile(s) on the device. Both provisioning profiles
+(.mobileprovision) and configuration profiles (.mobileconfig) are supported.
+
+The profile type is auto-detected from the file extension, or can be specified
+explicitly using --type.
+
+Multiple profiles can be specified and will be installed in a batch operation.
+Each profile will be validated before installation.
+Use 'devicectl device profile validate' to check a profile without installing
+it.
+
+USAGE: devicectl device profile install --device <uuid|ecid|serial_number|udid|name|dns_name> <paths> ... [--type <type>] [--replace-existing] [--no-replace-existing] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  <paths>                 The path(s) to the profile(s) to install
+                          (.mobileprovision or .mobileconfig)
+  --type <type>           Force profile type (provisioning or configuration).
+                          Auto-detected from file extension if not specified.
+                          (values: provisioning, configuration)
+  --replace-existing/--no-replace-existing
+                          Allow replacing existing profiles with the same
+                          identifier (default: --replace-existing)
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device profile list
+
+```text
+OVERVIEW: List profiles installed on a device.
+
+This command lists all profiles installed on the device, including both
+provisioning profiles (.mobileprovision) and configuration profiles
+(.mobileconfig).
+
+Use --type to filter by profile type.
+
+USAGE: devicectl device profile list [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --type <type>           Filter by profile type (provisioning or
+                          configuration) (values: provisioning, configuration)
+
+FILTERING OPTIONS:
+  -s, --search <search>   A plain-text search string used to filter results.
+        Performs a case-insensitive substring match across all columns. Rows
+        where any column contains the search string are included in the output.
+         This searches all possible columns, not just visible ones.
+
+        E.g. `--search iPhone` or `-s mac`
+
+        For advanced filtering with specific fields and operators, use
+        `--filter` instead.
+  --filter <filter>       An NSPredicate expression used to filter the list of
+                          items shown.
+        The attribute name can be the column's name from either the table-based
+        output or a fully qualified JSON field identifier from the JSON output.
+
+        Common operators: = (equals), CONTAINS, BEGINSWITH, ENDSWITH, AND, OR,
+        NOT.
+
+        Examples:
+          --filter "Name CONTAINS 'iPhone'"
+          --filter "Identifier = '00008101-000A0C123456001E'"
+          --filter "hardwareProperties.platform BEGINSWITH 'mac'"
+          --filter "Name CONTAINS 'iPad' AND State = 'available'"
+
+        For simple text matching across all columns, use `--search` instead.
+  --sort-by <sort-by>     If specified, a key path by which to sort results.
+  --columns <columns>     If specified, additional data columns to print.
+                          Specify '*' (in quotes) for all data columns.
+  --hide-default-columns  Hide default data columns and only print those
+                          specified with --columns.
+  --hide-headers          Hide data column headers.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device profile remove
+
+```text
+OVERVIEW: Remove one or more profiles from a device.
+
+This command removes profile(s) from the device.
+
+For provisioning profiles, specify the UUID (e.g.,
+"12345678-1234-1234-1234-123456789ABC").
+For configuration profiles, specify the payload identifier (e.g.,
+"com.example.myprofile").
+
+The profile type is auto-detected based on the identifier format, or can be
+specified
+explicitly using --type.
+
+Use 'devicectl device profile list' to see available profiles and their
+identifiers.
+
+USAGE: devicectl device profile remove --device <uuid|ecid|serial_number|udid|name|dns_name> <identifiers> ... [--type <type>] [--force-removal] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  <identifiers>           The identifier(s) of the profile(s) to remove. UUIDs
+                          for provisioning profiles, payload identifiers for
+                          configuration profiles.
+  --type <type>           Profile type (provisioning or configuration). If not
+                          specified, auto-detects based on identifier format.
+                          (values: provisioning, configuration)
+  --force-removal         Force removal even if profile is not found on device
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device profile validate
+
+```text
+OVERVIEW: Validate one or more profiles without installing them.
+
+This command validates profile(s) without installing them.
+Multiple profiles can be specified and will be validated in a batch operation.
+
+Supported profile types:
+  - Provisioning profiles (.mobileprovision): Validation includes signature
+verification,
+    expiration checking, and format validation.
+  - Configuration profiles (.mobileconfig): Validation includes format
+checking,
+    expiration checking, and payload validation.
+
+The profile type is auto-detected from the file extension, or can be specified
+explicitly using the --type flag.
+
+This is a local operation and does not require a device connection.
+
+USAGE: devicectl device profile validate <paths> ... [--type <type>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+COMMAND OPTIONS:
+  <paths>                 The path(s) to the profile(s) to validate
+                          (.mobileprovision or .mobileconfig)
+  --type <type>           The type of profile to validate (provisioning or
+                          configuration). Auto-detected from file extension if
+                          not specified. (values: provisioning, configuration)
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device reboot
+
+```text
+OVERVIEW: Reboot a device.
+
+This command reboots a device.
+
+USAGE: devicectl device reboot --device <uuid|ecid|serial_number|udid|name|dns_name> [--style <style>] [--wait-for-device] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --style <style>         The reboot style to use. Either 'full' or 'userspace'
+                          can be requested. By default, a full reboot is
+                          performed. (default: full)
+  -w, --wait-for-device   Whether the command should wait for the device to
+                          become available again after rebooting. This option
+                          is supported only for devices which are physically
+                          connected to the host.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device rename
+
+```text
+OVERVIEW: Rename a device.
+
+This command changes the user-visible name of a device.
+
+USAGE: devicectl device rename --device <uuid|ecid|serial_number|udid|name|dns_name> --name <name> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --name <name>           The new name to assign to the device.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device settings
+
+```text
+OVERVIEW: Customize device settings.
+
+Allows users to customize various device settings such as appearance, locale,
+and other preferences.
+
+USAGE: devicectl device settings [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  appearance              Set device user interface appearance
+  audio                   Set device audio settings
+  biometrics              Query or control biometric settings.
+  reset                   Reset a device’s content and settings.
+
+  See 'devicectl help device settings <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device settings appearance
+
+```text
+OVERVIEW: Set device user interface appearance
+
+Set the user interface style (light/dark), look and feel, text size, increase
+contrast, reduce motion, reduce transparency, show borders, Liquid Glass
+opacity, and/or color filter for a device (if supported).
+Use 'devicectl device info appearance' to get the current appearance settings.
+
+USAGE: devicectl device settings appearance [<options>] --device <uuid|ecid|serial_number|udid|name|dns_name>
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --mode <mode>           The user interface style to set (values: light, dark,
+                          l, d)
+        Valid values: light or dark
+  --look-and-feel <look-and-feel>
+                          The look and feel to set (values: clear, tinted, c, t)
+        Valid values: clear, tinted
+  --text-size <text-size> The text size to set (values: extra-small, small,
+                          medium, large, extra-large, extra-extra-large,
+                          extra-extra-extra-large, xs, s, m, l, xl, xxl, xxxl)
+        Valid values: extra-small, small, medium, large, extra-large,
+        extra-extra-large, extra-extra-extra-large
+  --increase-contrast <increase-contrast>
+                          Enable or disable increased contrast (values: on, off)
+        Valid values: on, off
+  --reduce-motion <reduce-motion>
+                          The reduce motion setting (values: on, off)
+        Valid values: on, off
+  --reduce-transparency <reduce-transparency>
+                          The reduce transparency setting (values: on, off)
+        Valid values: on, off
+  --show-borders <show-borders>
+                          The show borders setting (values: on, off)
+        Valid values: on, off
+  --liquid-glass-opacity <liquid-glass-opacity>
+                          The Liquid Glass opacity level
+        A value from 0.0 (fully translucent) to 1.0 (fully opaque)
+  --color-filter <color-filter>
+                          Enable or disable the color filter (values: on, off)
+        Valid values: on, off
+  --color-filter-type <color-filter-type>
+                          The color filter type (values: grayscale, protanopia,
+                          deuteranopia, tritanopia, gray, red-green, green-red,
+                          blue-yellow)
+        Valid values: grayscale, protanopia (red-green), deuteranopia
+        (green-red), tritanopia (blue-yellow)
+  --color-filter-intensity <color-filter-intensity>
+                          The color filter intensity (does not apply to
+                          grayscale)
+        A value from 0.25 to 1.0
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device settings audio
+
+```text
+OVERVIEW: Set device audio settings
+
+Set the audio output device, audio input device, and/or volume level for a
+device (if supported).
+Use 'devicectl device info audio' to get the current audio settings.
+
+USAGE: devicectl device settings audio --device <uuid|ecid|serial_number|udid|name|dns_name> [--output-device <output-device>] [--input-device <input-device>] [--volume <volume>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --output-device <output-device>
+                          The audio output device to use
+        Use 'systemDefault' for the host system's default audio device, or a
+        device identifier string to pin to a specific device.
+  --input-device <input-device>
+                          The audio input device to use
+        Use 'systemDefault' for the host system's default audio device, or a
+        device identifier string to pin to a specific device.
+  --volume <volume>       The volume level to set (0–100)
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device settings biometrics
+
+```text
+OVERVIEW: Query or control biometric settings.
+
+Query, enable, or disable biometrics on a device. Pass `--enable` or
+`--disable` to change the enrollment state of all supported biometric types
+(Touch ID, Face ID, Optic ID). With no flag, the command reports the current
+enrollment state for each supported biometric type without making any changes.
+
+USAGE: devicectl device settings biometrics --device <uuid|ecid|serial_number|udid|name|dns_name> [--enable] [--disable] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --enable                Enable biometrics on the device.
+  --disable               Disable biometrics on the device.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device settings reset
+
+```text
+OVERVIEW: Reset a device’s content and settings.
+
+This will restore the device to factory settings and erase all user content
+and files.
+
+USAGE: devicectl device settings reset --device <uuid|ecid|serial_number|udid|name|dns_name> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device simulate
+
+```text
+OVERVIEW: Simulate device behaviors.
+
+Simulate various device behaviors such as location, network conditions,
+sensors, etc.
+
+USAGE: devicectl device simulate [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  biometrics              Simulate biometric authentication events.
+  location                Simulate device location.
+  statusBar               Simulate device status bar appearance.
+
+  See 'devicectl help device simulate <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device simulate biometrics
+
+```text
+OVERVIEW: Simulate biometric authentication events.
+
+Simulate biometric authentication events on a device. The device must have
+biometrics enabled for this to take effect. This command acts on all supported
+biometric types.
+
+USAGE: devicectl device simulate biometrics --device <uuid|ecid|serial_number|udid|name|dns_name> --success --failure [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --success               Simulate a successful biometric match.
+  --failure               Simulate a failed biometric match.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device simulate location
+
+```text
+OVERVIEW: Simulate device location.
+
+Simulate a device being at a specific location or moving along a route.
+
+USAGE: devicectl device simulate location [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  clear                   Clear any active location simulation
+  coordinate              Set location to specific coordinates
+  list                    List available location scenarios
+  route                   Simulate movement along waypoints
+  scenario                Set location using a pre-defined scenario or from a
+                          file
+
+  See 'devicectl help device simulate location <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
 
 ###### devicectl device simulate location clear
 
@@ -5322,6 +4359,52 @@ OPTIONS:
   -h, --help              Show help information.
 ```
 
+##### devicectl device simulate statusBar
+
+```text
+OVERVIEW: Simulate device status bar appearance.
+
+Customize the appearance of the device's status bar for screenshots and UI
+testing. Override indicators like time, network type, signal strength, and
+battery level.
+
+USAGE: devicectl device simulate statusBar [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  clear                   Clear any active status bar overrides
+  override                Override status bar indicators with custom values
+  preset                  Apply a preset status bar configuration
+  show                    Show currently active status bar overrides
+
+  See 'devicectl help device simulate statusBar <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
 ###### devicectl device simulate statusBar clear
 
 ```text
@@ -5522,3 +4605,831 @@ OPTIONS:
   --version               Show the version.
   -h, --help              Show help information.
 ```
+
+#### devicectl device sysdiagnose
+
+```text
+OVERVIEW: Gather a sysdiagnose for a device.
+
+This command gathers a sysdiagnose for the indicated device. If you also want
+to gather a sysdiagnose for the host and additional Core Device information,
+please use `devicectl diagnose` instead.
+
+'--json-output -' is not supported; pass '--json-output <path>' instead.
+
+USAGE: devicectl device sysdiagnose --device <uuid|ecid|serial_number|udid|name|dns_name> [--destination <destination>] [--gather-full-logs] [--dry-run-only] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  --destination <destination>
+                          Where to place the device's sysdiagnose. By default
+                          the sysdiagnose will be placed in a unique temporary
+                          directory.
+  --gather-full-logs      When running the command, tell sysdiagnose to gather
+                          full logs. Since this can result in significantly
+                          larger sysdiagnose files, this is off by default.
+  --dry-run-only          When running the command, tell sysdiagnose whether to
+                          collect diagnostics. This is used for testing.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl device uninstall
+
+```text
+OVERVIEW: Uninstall content from a device.
+
+This command allows you to uninstall content from a device.
+
+USAGE: devicectl device uninstall [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  app                     Uninstalls an app.
+
+  See 'devicectl help device uninstall <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl device uninstall app
+
+```text
+OVERVIEW: Uninstalls an app.
+
+This command removes an app from the device.
+
+USAGE: devicectl device uninstall app --device <uuid|ecid|serial_number|udid|name|dns_name> <bundle-identifier> [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+COMMAND OPTIONS:
+  <bundle-identifier>     The bundle identifier of the application to uninstall.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+### devicectl diagnose
+
+```text
+OVERVIEW: Gather diagnostic information for debugging or filing bug reports.
+
+This command gathers diagnostic information from the local system and connected
+devices that have a mounted Developer Disk Image (DDI).
+
+By default this command will wait for 3600 seconds before exiting. You can
+override this by providing a different --timeout value.
+
+'--json-output -' is not supported; pass '--json-output <path>' instead.
+
+If you are running this command to generate diagnostics for a Feedback
+Assistant report, you can provide better logging by installing CoreDevice's
+CoreDeviceHostLogging profile (located at
+/Library/Developer/PrivateFrameworks/CoreDevice.framework/Resources/CoreDeviceHostLogging.mobileconfig).
+To install the profile either double-click on
+CoreDeviceHostLogging.mobileconfig in Finder or go to System Settings->Privacy
+& Security->Profile and add the profile directly.
+
+USAGE: devicectl diagnose <options>
+
+DEVICE OPTIONS:
+  -d, --devices <uuid|ecid|udid|name>
+                          The identifiers, ECIDs, UDIDs, or names of the
+                          devices. If not specified, all known devices are
+                          used. For multiple devices, supply this option
+                          multiple times, once for each device.
+
+COMMAND OPTIONS:
+  -b, --finder/--no-finder
+                          Do not show the resulting archive in Finder upon
+                          completion. Default is to show the archive in Finder
+                          if the current user is controlling the Aqua console
+                          session. (default: --finder)
+  -k, --keep-temp-dir     Keep the temporary directory after archiving. Default
+                          is to delete the directory once the archive has been
+                          created.
+  -a, --archive-destination <path>
+                          The path for the final ZIP archive. By default the
+                          archive is placed at
+                          '/tmp/devicectl_diagnose_<timestamp>.zip'. This is
+                          ignored if --create-radar is passed in (since no
+                          archive is created).
+  --archive/--no-archive  Do not create an archive, leave the collected files
+                          uncompressed. (default: --archive)
+  --include-host-sysdiagnose/--no-include-host-sysdiagnose
+                          When running the command, include the host
+                          sysdiagnose collection, which may increase
+                          diagnostics collection time. (default:
+                          --include-host-sysdiagnose)
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+### devicectl list
+
+```text
+OVERVIEW: List things that devicectl knows about.
+
+This command lists different kinds of things that CoreDevice knows about.
+
+USAGE: devicectl list [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  audioDevices            List the host's audio input and output devices.
+  devices                 Lists devices that CoreDevice knows about
+  plugins                 List loaded plugin information for devicectl and
+                          CoreDeviceService. 
+  preferredDDI            List the DDI that CoreDevice will use for a given
+                          platform.
+
+  See 'devicectl help list <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl list audioDevices
+
+```text
+OVERVIEW: List the host's audio input and output devices.
+
+Lists the audio devices that CoreAudio reports on the host (this Mac). Hidden
+devices and private aggregate devices that macOS creates dynamically are
+filtered out.
+
+USAGE: devicectl list audioDevices [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl list devices
+
+```text
+OVERVIEW: Lists devices that CoreDevice knows about
+
+USAGE: devicectl list devices [--search <search>] [--filter <filter>] [--sort-by <sort-by>] [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+FILTERING OPTIONS:
+  -s, --search <search>   A plain-text search string used to filter results.
+        Performs a case-insensitive substring match across all columns. Rows
+        where any column contains the search string are included in the output.
+         This searches all possible columns, not just visible ones.
+
+        E.g. `--search iPhone` or `-s mac`
+
+        For advanced filtering with specific fields and operators, use
+        `--filter` instead.
+  --filter <filter>       An NSPredicate expression used to filter the list of
+                          items shown.
+        The attribute name can be the column's name from either the table-based
+        output or a fully qualified JSON field identifier from the JSON output.
+
+        Common operators: = (equals), CONTAINS, BEGINSWITH, ENDSWITH, AND, OR,
+        NOT.
+
+        Examples:
+          --filter "Name CONTAINS 'iPhone'"
+          --filter "Identifier = '00008101-000A0C123456001E'"
+          --filter "hardwareProperties.platform BEGINSWITH 'mac'"
+          --filter "Name CONTAINS 'iPad' AND State = 'available'"
+
+        For simple text matching across all columns, use `--search` instead.
+  --sort-by <sort-by>     If specified, a key path by which to sort results.
+  --columns <columns>     If specified, additional data columns to print.
+                          Specify '*' (in quotes) for all data columns.
+  --hide-default-columns  Hide default data columns and only print those
+                          specified with --columns.
+  --hide-headers          Hide data column headers.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl list plugins
+
+```text
+OVERVIEW: List loaded plugin information for devicectl and CoreDeviceService. 
+
+USAGE: devicectl list plugins [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl list preferredDDI
+
+```text
+OVERVIEW: List the DDI that CoreDevice will use for a given platform.
+
+This command allows the user to see what Developer Disk Image (DDI) would be
+used for a given platform. If no usable DDI is available, this command will
+return the best DDI available, even though it is unusable.
+
+USAGE: devicectl list preferredDDI [--platform <platform>] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+COMMAND OPTIONS:
+  --platform <platform>   The device platform of the requested DDI.
+        If this is not provided, DDIs will be shown for all supported
+        platforms. Examples: iOS, watchOS
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+### devicectl manage
+
+```text
+OVERVIEW: Commands to change state between the system and devices, or between
+devices themselves.
+
+Allows users to prepare devices for use, disconnect existing device
+connections, and set up relationships between devices themselves or between
+accessories and devices.
+
+USAGE: devicectl manage [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  ddis                    Commands used to manage the set of developer disk
+                          images present on the host.
+  loggingProfile          Commands used to manage the Core Device logging
+                          profile.
+  pair                    Pair with a given device.
+  unpair                  Unpair a manually paired device.
+
+  See 'devicectl help manage <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl manage ddis
+
+```text
+OVERVIEW: Commands used to manage the set of developer disk images present on
+the host.
+
+Provides commands to clean out the existing set of developer disk images
+present on the host and to update the set of DDIs present on the host (given a
+directory of candidate DDIs).
+
+USAGE: devicectl manage ddis [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  clean                   Removes any developer disk images installed on the
+                          host.
+  update                  Update the DDIs installed on the host.
+
+  See 'devicectl help manage ddis <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl manage ddis clean
+
+```text
+OVERVIEW: Removes any developer disk images installed on the host.
+
+This command removes any developer disk images installed on the host (in
+/Library/Developer/DeveloperDiskImages).
+
+USAGE: devicectl manage ddis clean [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl manage ddis update
+
+```text
+OVERVIEW: Update the DDIs installed on the host.
+
+This command updates the set of DDIs installed on the host (in
+/Library/Developer/DeveloperDiskImages). By default the DDIs from the selected
+Xcode are used to update the host. The user can provide a directory of DDIs to
+use instead via the --source-dir flag.
+
+USAGE: devicectl manage ddis update [--source-dir <source-dir> ...] [--clean] [--no-clean] [--include-coredevice] [--no-include-coredevice] [--include-xcode] [--no-include-xcode] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+COMMAND OPTIONS:
+  --source-dir <source-dir>
+                          Additional absolute path to the directory containing
+                          DDIs to install.
+        Multiple source directories can be provided by passing in the option
+        multiple times.
+  --clean/--no-clean      Clean out /Library/Developer/DeveloperDiskImages
+                          before updating DDIs (default: --no-clean)
+        If set, devicectl will remove /Library/Developer/DeveloperDiskImages
+        and replace it with an empty directory before updating the DDIs on the
+        host.
+  --include-coredevice/--no-include-coredevice
+                          Include DDIs from
+                          /Library/Developer/CoreDevice/CandidateDDIs as
+                          candidate DDIs to consider when updating. (default:
+                          --include-coredevice)
+        If set, devicectl will include
+        /Library/Developer/CoreDevice/CandidateDDIs in the set of DDIs to
+        consider when updating. By default, this directory is included.
+  --include-xcode/--no-include-xcode
+                          Include DDIs from the selected Xcode.app (if present)
+                          as candidate DDIs to consider when updating.
+                          (default: --include-xcode)
+        If set, devicectl will include DDIs present in the selected Xcode.app
+        (if present) in the set of DDIs to consider when updating. By default,
+        DDIs are included from the selected Xcode.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl manage loggingProfile
+
+```text
+OVERVIEW: Commands used to manage the Core Device logging profile.
+
+Provides commands to activate the Core Device logging profile. The Core Device
+logging profile ensures that archives of the system logs on your Mac will
+contain additional information that is helpful when filing feedback and bug
+reports.
+
+USAGE: devicectl manage loggingProfile [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>] <subcommand>
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  register                Registers the Core Device logging profile on your Mac
+                          and optionally opens System Settings.
+
+  See 'devicectl help manage loggingProfile <subcommand>' for detailed help.
+```
+
+[↑ Back to Command Index](#index)
+
+##### devicectl manage loggingProfile register
+
+```text
+OVERVIEW: Registers the Core Device logging profile on your Mac and optionally
+opens System Settings.
+
+Registers a special logging profile on your Mac which allows Core Device to log
+all of the data it collects. This profile is useful if you want to collect data
+for debugging purposes or for filing feedback reports, and the profile can be
+uninstalled at any time. After the logging profile is registered, you must
+activate it in System Settings.
+
+USAGE: devicectl manage loggingProfile register [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl manage pair
+
+```text
+OVERVIEW: Pair with a given device.
+
+This command attempts to pair with a device discovered by CoreDevice.
+
+USAGE: devicectl manage pair --device <uuid|ecid|serial_number|udid|name|dns_name> [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+FORMATTING OPTIONS:
+  --columns <columns>     If specified, additional data columns to print.
+                          Specify '*' (in quotes) for all data columns.
+  --hide-default-columns  Hide default data columns and only print those
+                          specified with --columns.
+  --hide-headers          Hide data column headers.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
+
+#### devicectl manage unpair
+
+```text
+OVERVIEW: Unpair a manually paired device.
+
+This command unpairs a manually paired device.
+
+USAGE: devicectl manage unpair --device <uuid|ecid|serial_number|udid|name|dns_name> [--columns <columns> ...] [--hide-default-columns] [--hide-headers] [--verbose] [--quiet] [--timeout <seconds>] [--json-output <path>] [--log-output <path>]
+
+DEVICE OPTIONS:
+  -d, --device <uuid|ecid|serial_number|udid|name|dns_name>
+                          The identifier, ECID, serial number, UDID,
+                          user-provided name, or DNS name of the device.
+
+FORMATTING OPTIONS:
+  --columns <columns>     If specified, additional data columns to print.
+                          Specify '*' (in quotes) for all data columns.
+  --hide-default-columns  Hide default data columns and only print those
+                          specified with --columns.
+  --hide-headers          Hide data column headers.
+
+OUTPUT OPTIONS:
+  -v, --verbose           If given, provide more logging output than normal.
+  -q, --quiet             If given, output will include only errors.
+  -t, --timeout <seconds> The overall command timeout in seconds. If this limit
+                          is exceeded the command is abandoned as a failure.
+  -j, --json-output <path>
+                          An optional path to write a JSON file with command
+                          results. Pass '-' (or '/dev/stdout' / '/dev/fd/1') to
+                          write the JSON to stdout instead of a file.
+        For a file path, both absolute and working-directory-relative forms are
+        accepted; existing files are overwritten. Any of '-', '/dev/stdout',
+        and '/dev/fd/1' selects stdout. When the JSON document is on stdout,
+        human-readable output (progress, status, log lines) is routed to stderr
+        instead. A few commands write non-JSON content to stdout themselves
+        (binary payloads, bridged remote stdout, legal notices) and will reject
+        stdout-selecting values at validation time — see each command's help
+        for details.
+  -l, --log-output <path> An optional path to write all logging otherwise
+                          passed to stdout/stderr.
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+[↑ Back to Command Index](#index)
